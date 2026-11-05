@@ -1,6 +1,23 @@
-A simple React app following a Tech with Tim tutorial at https://www.youtube.com/watch?v=G6D9cBaLViA
+# Movie App
 
-# React + Vite
+A simple React practice app following a Tech with Tim tutorial at https://www.youtube.com/watch?v=G6D9cBaLViA
+
+## Stack:
+
+- **React** — A JavaScript library for building user interfaces through reusable, state-driven components.
+- **Vite** — A build tool and dev server that bundles your code and serves it locally during development.
+- **Node.js** — A JavaScript runtime environment that lets you run JavaScript outside the browser, enabling build tools and package management.
+- **NPM** — The default package manager for Node that installs, version-controls, and scripts external libraries (like React or Vite).
+
+Together: Node provides the runtime, NPM installs dependencies, Vite serves/bundles the React app during development and production.
+
+React and Vite are frontend specific tools — React is a UI library and Vite is a frontend build tool; both exist solely to build what runs in the browser.
+
+Node and NPM are general purpose. Node.js is a full JavaScript runtime capable of powering backend servers and APIs too (many companies run entire backends on it). NPM manages packages for any JavaScript project, frontend or backend.
+
+Even though this app is pure frontend, import.meta.env variables like the TMDB key end up visible in the browser bundle. Truly hiding a key would require a backend—typically built with Node.
+
+# React + Vite template notes:
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
